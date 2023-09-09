@@ -18,14 +18,19 @@
             <Label
                 Grid.Row="0"
                 HorizontalOptions="Center"
-                VerticalOptions="Center"
+                VerticalOptions="End"
+                FontSize="32"
+                FontFamily="Roboto"
                 Text="ROLADOR DE DADOS"/>
+
 
             <Label
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
                 Grid.Row="1"
                 Text="0"
+                FontSize="80"
+                FontFamily="Roboto"
                 x:Name="diceResult"/>
 
             <Picker 
@@ -33,7 +38,9 @@
                 HorizontalOptions="Center"
                 VerticalOptions="Start"
                 x:Name="diceList" 
-                Title="Quantidade de Lados">
+                Title="Quantidade de Lados"
+                FontFamily="Roboto"
+                WidthRequest="294">
                 <Picker.Items>
                     <x:String>4</x:String>
                     <x:String>6</x:String>
@@ -46,8 +53,14 @@
             <Button
                 Grid.Row="3"
                 HorizontalOptions="Center"
+                VerticalOptions="Start"
                 Text="Rolar o Dado"
-                x:Name="buttonCalc"/>
+                FontSize="15"
+                FontFamily="Roboto"
+                x:Name="buttonCalc"
+                WidthRequest="180"
+                HeightRequest="42"/>
+            
         </Grid>
     </ScrollView>
 

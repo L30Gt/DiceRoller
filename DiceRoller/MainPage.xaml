@@ -15,14 +15,16 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <Label
+            
+            <Image
+                x:Name="diceImage"
+                Source="dice_d4.png"
                 Grid.Row="0"
+                HeightRequest="200"
                 HorizontalOptions="Center"
+                Margin="0,100,0,0"
                 VerticalOptions="End"
-                FontSize="32"
-                FontFamily="Roboto"
-                Text="ROLADOR DE DADOS"/>
-
+                />
 
             <Label
                 HorizontalOptions="Center"
